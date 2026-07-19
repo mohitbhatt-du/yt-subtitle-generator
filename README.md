@@ -174,6 +174,20 @@ Try the application here:
 
 No installation required paste a YouTube URL and retrieve the transcript instantly.
 
+> ## ⚠️ Demo Notice
+>
+> The live demo may occasionally be unavailable for transcript retrieval. This is **not an application issue**. The project uses `youtube-transcript-api`, and YouTube frequently blocks requests originating from cloud hosting providers (such as Render, AWS, Azure, etc.). As a result, transcript requests from the hosted demo may fail even though the application itself is functioning correctly.
+>
+> **For the best experience, clone the repository and run the project locally**, where transcript retrieval is significantly more reliable.
+>
+> ### Local Usage Recommendation
+>
+> * Run the application on your local machine for consistent results.
+> * Avoid sending a large number of transcript requests in a short period of time. Excessive requests can cause YouTube to temporarily block your IP address, preventing transcript retrieval until the restriction is lifted.
+> * The application includes caching and rate limiting to reduce unnecessary requests, but responsible usage is still recommended.
+>
+> Thank you for your understanding.
+
 ## 🛡️ Production Features
 
 * Request validation
